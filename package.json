@@ -1,13 +1,12 @@
 {
-  "name": "tic-tac-toe",
+  "name": "travel-tree",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "export": "next export"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "16.0.3",
@@ -23,19 +22,5 @@
     "eslint-config-next": "16.0.3",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "description": "tic-tac-toe",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tettsu-dev/tic-tac-toe.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/tettsu-dev/tic-tac-toe/issues"
-  },
-  "homepage": "https://github.com/tettsu-dev/tic-tac-toe#readme"
+  }
 }
