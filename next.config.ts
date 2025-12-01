@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  images: {
+    unoptimized: true
+  },
+  basePath: "/tic-tac-toe"
 };
 
 export default nextConfig;
