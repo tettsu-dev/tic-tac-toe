@@ -31,13 +31,12 @@ jobs:
 
       # 3.package.json に基づき依存関係をインストール
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       # 4.Next.js アプリケーションをビルドし、静的ファイルを生成
       - name: Build
         run: |
           npm run build
-          npm run export
 
       # 5.ビルド成果物を GitHub Pages 用の artifact としてアップロード
       - name: Upload artifact
